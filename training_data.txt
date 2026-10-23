@@ -1,0 +1,500 @@
+artificial intelligence helps computers perform tasks
+machine learning finds patterns in data
+deep learning uses neural networks
+an ai model learns from examples
+training data teaches a model to make predictions
+good data improves machine learning results
+bad data can create poor predictions
+models need examples to learn patterns
+supervised learning uses labeled examples
+unsupervised learning discovers hidden patterns
+reinforcement learning learns from rewards
+classification predicts a category
+regression predicts a numerical value
+clustering groups similar data points
+features describe an example
+a label is the answer for an example
+a dataset contains many examples
+training updates the model parameters
+evaluation measures model performance
+testing checks how well a model generalizes
+overfitting happens when a model memorizes training data
+underfitting happens when a model learns too little
+validation data helps select a model
+the loss function measures prediction errors
+an optimizer updates model parameters
+gradient descent reduces the loss
+learning rate controls the update size
+small learning rates can make training slow
+large learning rates can make training unstable
+neural networks contain layers of operations
+neurons combine inputs using weights
+bias values shift neuron outputs
+activation functions add nonlinearity
+relu is a common activation function
+sigmoid produces values between zero and one
+softmax converts scores into probabilities
+cross entropy measures classification loss
+backpropagation computes gradients
+gradients guide parameter updates
+random seeds help reproduce experiments
+pytorch provides tools for deep learning
+tensors store numerical data
+numpy supports numerical computing
+pandas helps analyze tabular data
+scikit learn provides machine learning tools
+data cleaning removes errors and inconsistencies
+normalization can help prepare numerical features
+missing values need careful handling
+data leakage can make evaluation misleading
+a baseline gives us a simple comparison
+experiments should change one factor at a time
+model quality depends on data and evaluation
+more training does not always improve a model
+larger models usually need more resources
+small experiments help explain complex ideas
+python is a popular programming language
+a variable stores a value
+strings represent text
+integers represent whole numbers
+floating point numbers represent decimal values
+booleans represent true or false
+lists store ordered collections
+tuples are ordered and immutable
+sets store unique values
+dictionaries map keys to values
+functions group reusable instructions
+parameters provide inputs to a function
+return statements send results back
+loops repeat a block of code
+conditions choose between different paths
+exceptions help handle runtime errors
+modules organize reusable code
+classes define object structures
+objects contain data and behavior
+inheritance allows classes to reuse behavior
+composition combines smaller components
+comments explain important decisions
+clear names make code easier to read
+small functions are easier to test
+unit tests check individual pieces of code
+debugging helps locate programming mistakes
+logs help explain what a program is doing
+version control tracks changes over time
+git stores project history
+branches allow developers to work separately
+commits record changes
+code reviews can catch mistakes
+readable code is easier to maintain
+input validation prevents many common errors
+files can store data between program runs
+json is a common data exchange format
+regular expressions can find text patterns
+an algorithm describes steps to solve a problem
+data structures organize information
+a stack follows last in first out order
+a queue follows first in first out order
+hash maps provide key based lookup
+sorting arranges values in an order
+searching finds an item in a collection
+time complexity describes how work grows
+memory usage matters when data becomes large
+parallel tasks can run at the same time
+asynchronous code can wait without blocking
+documentation explains how software works
+simple solutions are often easier to maintain
+a language model predicts the next token
+text is converted into tokens before processing
+a tokenizer splits text into smaller units
+a vocabulary maps tokens to integer identifiers
+an embedding maps a token to a vector
+vectors represent token features numerically
+positional embeddings provide information about token positions
+attention lets tokens use information from context
+queries keys and values are learned projections
+attention scores compare queries with keys
+softmax turns attention scores into weights
+attention weights combine value vectors
+causal masking hides future tokens
+multi head attention uses several attention heads
+different heads can learn different relationships
+the feed forward network transforms each token representation
+residual connections help information flow through a network
+layer normalization stabilizes hidden representations
+a transformer block combines attention and feed forward layers
+stacked transformer blocks build deeper representations
+logits are scores for possible next tokens
+probabilities describe possible next tokens
+sampling chooses a token from a probability distribution
+temperature changes the sharpness of token probabilities
+top k sampling keeps a limited set of candidates
+greedy decoding selects the highest scoring token
+generation repeats next token prediction
+context length limits how many tokens are processed together
+longer context can require more memory
+an end token can signal that generation should stop
+a prompt provides context for a language model
+the model uses context to predict the next token
+pretraining learns patterns from a large text collection
+fine tuning continues training for a specific task
+inference uses a trained model to make predictions
+model weights store learned numerical parameters
+a checkpoint saves model parameters for later use
+tokenization rules must match between training and generation
+unknown tokens can cause problems for a simple tokenizer
+subword tokenization can represent unfamiliar words
+training loss measures predictions on training examples
+validation loss measures predictions on held out examples
+low training loss does not guarantee good generalization
+repeated training can cause overfitting
+early stopping can limit unnecessary training
+larger datasets often provide more language patterns
+repeated sentences can make a dataset less diverse
+sentence boundaries help organize training text
+data quality affects language model behavior
+a tiny language model has limited knowledge
+language models can produce incorrect statements
+generated text should be evaluated carefully
+web applications have a frontend and a backend
+the frontend displays information to users
+the backend processes requests and business rules
+an api allows applications to communicate
+http defines common web request methods
+get requests usually retrieve information
+post requests commonly submit new information
+put requests commonly replace a resource
+patch requests commonly update part of a resource
+delete requests commonly remove a resource
+json is often used in api responses
+status codes describe the result of a request
+authentication checks who a user is
+authorization checks what a user can do
+passwords should be stored using secure password hashing
+secrets should not be committed to source control
+environment variables can configure an application
+input validation improves application safety
+rate limiting can reduce abusive request traffic
+logs help investigate application failures
+monitoring helps detect service problems
+database indexes can speed up queries
+transactions group database operations
+foreign keys connect related database records
+migrations track database schema changes
+backups help recover lost information
+caching can reduce repeated computation
+pagination limits the amount of returned data
+consistent error responses help api clients
+tests help prevent regressions
+deployment makes software available to users
+a database stores organized information
+relational databases store data in tables
+a row represents one record
+a column represents one field
+sql can query relational databases
+select retrieves data from a table
+where filters records
+join combines related table data
+group by summarizes records
+aggregate functions calculate summaries
+primary keys identify records
+unique constraints prevent duplicate values
+database transactions support reliable updates
+normalization reduces unnecessary duplication
+query plans help explain database performance
+indexes improve some read operations
+too many indexes can slow writes
+large queries can consume substantial memory
+data pipelines move and transform information
+structured data follows a defined organization
+unstructured data may need extra processing
+data validation catches incorrect values
+analytics helps people understand trends
+charts can communicate patterns in data
+averages can hide important differences
+outliers can affect statistical summaries
+correlation does not prove causation
+devops connects development and operations
+automation reduces repetitive manual work
+continuous integration runs checks on code changes
+continuous delivery prepares software for release
+continuous deployment releases approved changes automatically
+docker packages software into containers
+a container includes an application and its dependencies
+container images describe how containers are created
+docker compose defines multi container applications
+containers can make environments more consistent
+logs help troubleshoot container failures
+health checks report whether a service is ready
+persistent volumes keep data beyond container lifetimes
+environment configuration separates settings from code
+cloud computing provides resources on demand
+a virtual machine runs an operating system
+an availability zone is an isolated cloud location
+a virtual network separates cloud resources
+firewall rules control network traffic
+least privilege limits unnecessary access
+load balancers distribute incoming requests
+horizontal scaling adds more application instances
+vertical scaling increases the resources of one instance
+object storage can hold files and backups
+monitoring tracks system health
+alerts notify teams about important problems
+backups should be tested regularly
+deployment rollbacks can restore a previous version
+secrets should be managed carefully
+reliable systems need observability
+security should be considered during design
+updates can fix known security vulnerabilities
+strong authentication protects user accounts
+multi factor authentication adds another security layer
+permissions should follow the principle of least privilege
+input should be treated as untrusted
+output encoding can prevent some injection attacks
+dependencies should be reviewed and updated
+logs should avoid exposing sensitive information
+encrypted connections protect data in transit
+access control limits who can view information
+privacy requires careful handling of personal data
+models can reflect biases in training data
+evaluation should include relevant user groups
+human review can help with high impact decisions
+ai systems should communicate uncertainty
+model outputs can contain factual errors
+responsible deployment includes ongoing monitoring
+the sun rises in the east
+water freezes at zero degrees Celsius under standard pressure
+plants need light water and nutrients to grow
+regular practice helps people learn new skills
+sleep supports memory and concentration
+walking is a simple form of exercise
+reading introduces people to new ideas
+asking questions can reveal missing information
+planning helps organize complicated tasks
+small goals can make progress easier to measure
+clear communication reduces confusion
+teamwork combines different skills
+feedback can help improve a project
+mistakes can provide useful lessons
+patience is important when learning something difficult
+curiosity encourages exploration
+careful observation helps solve problems
+evidence can support a conclusion
+measurements help compare results
+maps represent places and relationships
+weather can change during the day
+traffic depends on time and location
+public transport helps people travel
+railway stations connect different destinations
+passengers should follow station safety instructions
+timetables help travelers plan journeys
+tickets contain information about a trip
+clear signs help people find their way
+helpful staff can guide travelers
+accessibility makes public spaces easier to use
+cities contain homes workplaces and public services
+libraries provide access to books and information
+shops organize products for customers
+cooking uses ingredients and heat
+recipes describe steps for preparing food
+budgeting helps people plan their spending
+saving money requires tracking income and expenses
+prices can change over time
+comparing options can support better decisions
+checklists help people remember important tasks
+clean workspaces can make tasks easier
+team members can share knowledge
+good questions lead to useful discussions
+simple explanations make difficult topics easier
+learning takes time and repeated effort
+new ideas can improve existing processes
+reliable tools help people complete work
+careful testing improves confidence in results
+practice turns unfamiliar tasks into familiar routines
+an application can call a remote model api
+retrieval can provide documents to a language model
+search systems can find relevant information
+embeddings can represent the meaning of text
+vector search compares numerical representations
+a retrieval system can return relevant passages
+rag combines retrieval with language generation
+documents should be divided into useful chunks
+chunk size affects retrieval quality
+metadata can help filter search results
+citations help readers check supporting sources
+an agent can use tools to complete a task
+tool calls let a model interact with other systems
+an agent needs clear permissions and boundaries
+evaluations can compare different model versions
+latency measures how long a request takes
+throughput measures how much work a system completes
+batching can improve hardware utilization
+quantization can reduce model memory requirements
+model serving exposes predictions through an interface
+concurrency affects application capacity
+retries should be used carefully
+timeouts prevent requests from waiting forever
+fallback behavior can improve resilience
+feature flags can control gradual releases
+metrics help teams compare system behavior
+an experiment should have a clear question
+reproducible results require recorded settings
+training data should be checked for duplicates
+held out data should not guide every training update
+model size is only one part of model quality
+evaluation examples should match real use cases
+small language models are useful for learning concepts
+building a model teaches how its components work
+understanding the training loop helps debug failures
+clear experiments make technical learning more effective
+an engineer breaks a large task into smaller steps
+software requirements describe expected behavior
+a design document explains important technical choices
+an interface should provide useful feedback
+responsive layouts adapt to different screen sizes
+semantic html gives structure to a web page
+css controls the appearance of web content
+javascript adds behavior to web interfaces
+react builds interfaces from reusable components
+component state stores information that can change
+props pass information between components
+forms collect information from users
+client side validation improves the user experience
+server side validation is still necessary
+an api client sends requests to a server
+network errors can interrupt an api request
+loading indicators show that work is in progress
+empty states explain when there is no data
+accessible controls support more users
+consistent design helps users learn an interface
+responsive images adapt to their containers
+browser developer tools help diagnose web issues
+performance profiling can identify slow operations
+large files can increase page loading time
+code splitting can reduce initial download size
+caching policies affect how browsers reuse resources
+cookies can store small pieces of client state
+session management helps maintain user identity
+cross origin rules control browser access between sites
+content security policies can restrict resource loading
+database connections consume system resources
+connection pools reuse database connections
+slow queries should be investigated with measurements
+batch operations can reduce repeated database calls
+event driven systems react to important events
+queues can buffer work between services
+background jobs can process tasks outside a request
+idempotent operations can safely handle repeated requests
+distributed systems must handle partial failures
+network latency affects remote service calls
+service boundaries should reflect clear responsibilities
+loose coupling makes components easier to change
+clear contracts help services communicate
+schema changes need careful rollout planning
+backward compatibility reduces upgrade risks
+feature tests check complete user workflows
+integration tests check interactions between components
+mock objects can isolate a unit under test
+test data should be easy to reproduce
+continuous integration can run tests automatically
+build failures should be investigated promptly
+deployment pipelines record release steps
+separate environments can reduce release risk
+development settings may differ from production settings
+production systems need careful access controls
+incident reviews can identify process improvements
+runbooks document operational procedures
+capacity planning estimates future resource needs
+resource limits can protect a shared server
+memory leaks can reduce application stability
+cpu profiling helps locate expensive computation
+disk space should be monitored
+network monitoring can reveal connectivity issues
+backup retention policies define how long copies remain
+recovery exercises test disaster plans
+redundancy can reduce some service outages
+single points of failure need careful attention
+load testing estimates behavior under heavy traffic
+stress testing explores system limits
+smoke tests check essential behavior after deployment
+canary releases expose changes to a small group
+blue green deployment uses two environments
+rollback plans should be prepared before risky releases
+cloud bills depend on resource usage
+unused resources can create unnecessary costs
+tags help organize cloud resources
+identity policies define permitted cloud actions
+private networks reduce direct public exposure
+public endpoints should expose only required services
+tls helps protect data sent across networks
+dns maps names to network addresses
+domain records control how names resolve
+an ssl certificate helps authenticate a website
+load balancer health checks detect unavailable targets
+autoscaling changes capacity based on defined conditions
+container orchestration manages groups of containers
+readiness checks indicate whether an application can receive traffic
+liveness checks can detect stuck processes
+container logs should be collected consistently
+configuration should be validated at startup
+graceful shutdown lets a service finish active work
+signal handling helps applications stop cleanly
+system packages should be kept up to date
+dependency versions affect reproducibility
+lock files record resolved package versions
+virtual environments isolate python dependencies
+pip installs python packages
+requirements files can list project dependencies
+type hints describe expected python values
+static analysis can find some code problems
+formatters keep source code consistent
+linters flag suspicious patterns
+profiling should guide performance optimization
+premature optimization can waste development time
+benchmarks compare implementations under measured conditions
+randomized experiments can reveal unexpected behavior
+confidence intervals express uncertainty around estimates
+a sample may not represent the full population
+balanced datasets can simplify some evaluations
+imbalanced classes require careful metrics
+precision measures the quality of positive predictions
+recall measures how many positive cases were found
+accuracy can be misleading on imbalanced data
+a confusion matrix summarizes classification results
+mean squared error penalizes larger numerical errors
+mean absolute error measures average absolute error
+data distributions can change over time
+distribution shift can reduce model performance
+monitoring can detect changes in incoming data
+human feedback can reveal model weaknesses
+prompt design influences model responses
+clear instructions can improve task consistency
+structured outputs can simplify downstream processing
+json schemas can validate structured responses
+retrieval quality affects grounded answers
+irrelevant context can confuse a language model
+source documents should be checked for quality
+private documents require appropriate access controls
+prompt injection can attempt to change system behavior
+tools should validate arguments before taking action
+agents should not receive unnecessary permissions
+human approval can be required for sensitive actions
+evaluation sets should include difficult examples
+adversarial tests explore unusual inputs
+red teaming looks for system weaknesses
+model latency affects interactive applications
+streaming can display generated text incrementally
+token counts affect language model costs
+context windows limit the amount of text processed
+long prompts can increase inference cost
+caching repeated computations can reduce latency
+deterministic settings can help reproduce some outputs
+random sampling can make generated text vary
+greedy decoding can produce repetitive output
+top p sampling keeps tokens within a probability mass
+top k sampling limits the number of candidate tokens
+temperature changes the relative token probabilities
+the best sampling settings depend on the task
+fine tuning needs suitable examples
+training checkpoints allow experiments to resume
+optimizer state can matter when resuming training
+gradient clipping can limit very large gradients

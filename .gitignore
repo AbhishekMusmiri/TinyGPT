@@ -1,0 +1,9 @@
+# Python environments and bytecode
+.venv/
+__pycache__/
+*.py[cod]
+
+# Generated training artifacts
+*.pt
+bpe_tokenizer*.json
+improved_bpe_tokenizer.json
